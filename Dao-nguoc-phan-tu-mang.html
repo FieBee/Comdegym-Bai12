@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dao nguoc phan tu mang</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+  let x = [6,5,8,4,2,4,6,8]
+  let dau=0
+  let cuoi=x.length-1
+  while (dau<cuoi){
+      let a
+      a=x[dau]
+      x[dau]=x[cuoi]
+      x[cuoi]=a
+      dau++
+      cuoi--
+  }
+  document.write(x)
+</script>
